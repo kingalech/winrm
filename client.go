@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/masterzen/winrm/soap"
+	"github.com/kingalech/winrm/soap"
 )
 
 // Client struct
