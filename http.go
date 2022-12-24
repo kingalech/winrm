@@ -64,6 +64,7 @@ func (c *clientRequest) Transport(endpoint *Endpoint) error {
 		TLSClientConfig: &tls.Config{
 			InsecureSkipVerify: endpoint.Insecure,
 			ServerName:         endpoint.TLSServerName,
+                        MinVersion: tls.VersionTLS10,
 		},
 		Dial:                  dial,
 		ResponseHeaderTimeout: endpoint.Timeout,

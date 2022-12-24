@@ -1,7 +1,7 @@
 package winrm
 
 import (
-	"github.com/masterzen/winrm/soap"
+	"github.com/kingalech/winrm/soap"
 	. "gopkg.in/check.v1"
 )
 
