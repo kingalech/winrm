@@ -1,4 +1,4 @@
-module github.com/masterzen/winrm
+module github.com/kingalech/winrm
 
 go 1.14
 
